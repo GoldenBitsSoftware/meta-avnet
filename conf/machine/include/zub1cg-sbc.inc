@@ -25,7 +25,6 @@ PMU_FIRMWARE_DEPLOY_DIR ?= "${TOPDIR}/pmutmp/deploy/images/zynqmp-pmu"
 EXTRA_IMAGEDEPENDS += " \
 		arm-trusted-firmware \
 		virtual/bootloader \
-		u-boot-zynq-scr \
 		virtual/fsbl \
 		virtual/pmu-firmware \
 		avnet-boot-scr \
